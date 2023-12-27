@@ -1,0 +1,134 @@
+.menu-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
+.menu {
+
+    background: url("/images/bg-hero-desktop.svg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+.menu-icon {
+    width: 64px;
+    height: 64px;
+}
+
+h3 {
+    font-weight: 50px;
+    font-family: sans-serif;
+}
+
+.menu-text {
+    flex: 1;
+    margin-left: 16px;
+}
+
+button {
+    width: 10%;
+    margin-left: 16px;
+    background: rgb(247, 247, 247);
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+}
+
+.banner-text {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.banner-text p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+    background: rgb(255, 255, 255);
+}
+
+.card-box {
+
+    width: 70%;
+    height: 800px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-style: inset;
+
+}
+
+.card-box img {
+    margin-left: 200px;
+    width: 30%;
+    height: 200px;
+    padding: 100px;
+    border-radius: 10%;
+}
+
+
+.info h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.info p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(131, 130, 130);
+}
+
+.footer-container {
+    z-index: 0;
+    margin-top: -50px;
+    background: rgb(42, 42, 160);
+    color: white;
+    padding: 10px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
+.footer-img {
+    padding: 40px;
+
+}
+
+.icons {
+    display: flex;
+
+}
+
+h1 {
+    padding: 10px;
+}
+
+
+img {
+    padding: 20px;
+
+}
